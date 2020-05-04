@@ -1,5 +1,9 @@
 class Solution:
     def findComplement(self, num: int) -> int:
+        '''
+        There's probably a faster way with bitwise
+        but I don't know how to do that yet lol
+        '''
         ans = ''
         
         # for each number in the binaryString
