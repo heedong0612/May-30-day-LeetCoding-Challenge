@@ -85,6 +85,7 @@ class Solution:
             # go left
             elif square > num:
                 r = mid - 1
+            # go right
             elif square < num:
                 l = mid + 1
                 
