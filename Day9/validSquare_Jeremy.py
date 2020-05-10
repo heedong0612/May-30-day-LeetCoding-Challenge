@@ -1,5 +1,9 @@
 class Solution:
     def isPerfectSquare(self, num: int) -> bool:
+        '''
+        Credits for the eyeball tests
+        https://www.youtube.com/watch?v=3ZnAYjpj6zc
+        '''
         # Eyeball tests
         if num == 1 or num == 0:
             return True
