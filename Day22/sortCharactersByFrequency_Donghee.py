@@ -34,7 +34,7 @@ class Solution(object):
             # if (mp.find(i) != mp.end()) {
             if i in mp : 
                 for ch in mp[i] :
-                    for j in range(i) :
+                    for _ in range(i) :
                         ans += ch
 
         return ans
